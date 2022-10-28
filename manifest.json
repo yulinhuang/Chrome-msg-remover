@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie msg deleter",
+  "version": "1.0",
+  "description": "Automatically delete message while not accepting cookies",
+  "content_scripts": [
+    {
+      "matches": ["https://www.boursorama.com/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
